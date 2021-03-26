@@ -1,0 +1,412 @@
+*{box-sizing: border-box;font-family: 'Playfair Display', serif;}
+body{ margin: 0;padding: 0;}
+/* Nabver Desing Starts From Here */
+/* Mobile Popurty */
+[class*="col-"] {
+    float: left;
+    padding: 10px 25px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.navbar{
+    background-color: cadetblue;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.nav-heading h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.nav-menu a{
+    background-color: rgb(50, 115, 110);
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 7px 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.nav-menu a:hover{
+    background-color: rgba(25, 30, 30, 0.425);
+}
+/* Nabver Desing Ends From Here */
+
+/* Profile Desing Starts From Here */
+
+.profile {
+    padding: 150px 10px;
+    position: relative;
+    text-align: center;
+}
+.profile .moon-icon {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    transition: transform 1s;
+    height: 125px;
+    width: 125px;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+}
+
+.profile .moon-icon:hover{
+    position: absolute;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.profile-desc h1{
+    font-size: 3rem;
+}
+.profile-desc p{
+    font-size: 1.2rem;
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 90%;
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Profile Desing Ends From Here */
+
+/* About Me Desing Starts From Here */
+.about-me {
+    background-color: #142d07a3;
+    padding: 1% 7%;
+    color: #fff;
+    text-align: center;
+}
+.aboutme-images img{
+    border: 5px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 175px;
+    width: 165px;
+}
+.about-me p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.about-me p{
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.dotted-hr {
+    margin: 20px auto;
+    width: 80px;
+    border: 10px dotted #b3bbbc;
+    border-bottom: none;
+}
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.about-me h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.aboutme-desc p, a {
+    color: #add;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.cv-button {
+    background-color: #aad;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    border: 3px solid #ccddee;
+}
+.cv-button:hover {
+    background-color: #156df052;
+    color: #fbf0fa;
+    border: 3px solid #ccddeec2;
+}
+/* About Me Desing Ends From Here */
+
+/* Professional Experience Starts Here */
+.professional-experience{
+    padding: 1% 0%;
+}
+.professional-experience .card {
+    background-color: #264444;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    height: 575px;
+    color: #aad;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 5px #00000d;
+}
+.card-icon{
+    text-align: center;
+}
+.card-icon img {
+    margin-top: 10px;
+    width: 75px;
+}
+.rounded-img{
+    border: 5px #fff solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+}
+.professional-experience::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.card-title h2 {
+    background-color: #556677;
+    color: #aaaaa1;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+}
+.card a{
+    font-size: 1.1rem;
+}
+
+.skills-container {
+    padding: 5px 35px;
+}
+.skills-container li {
+    list-style: none;
+    font-weight: bolder;
+    margin: 5px 10px 25px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.skills-container li::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #ccddee85;
+    border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+}
+.skills-container li::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: #add;
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.skills-container li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+.skills-container li.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 75%;
+    }
+}
+.skills-container li.bootstrap::after{
+    animation-name: bootstrap;
+}
+@keyframes bootstrap{
+    to{
+        width: 60%;
+    }
+}
+.skills-container li.javascript::after{
+    animation-name: javascript;
+}
+@keyframes javascript{
+    to{
+        width: 85%;
+    }
+}
+.skills-container li.jquery::after{
+    animation-name: jquery;
+}
+@keyframes jquery{
+    to{
+        width: 65%;
+    }
+}
+.skills-container li.node::after{
+    animation-name: node;
+}
+@keyframes node{
+    to{
+        width: 80%;
+    }
+}
+.skills-container li.express::after{
+    animation-name: express;
+}
+@keyframes express{
+    to{
+        width: 70%;
+    }
+}
+.skills-container li.github::after{
+    animation-name: github;
+}
+@keyframes github{
+    to{
+        width: 65%;
+    }
+}
+.skills-container li.react::after{
+    animation-name: react;
+}
+@keyframes react{
+    to{
+        width: 85%;
+    }
+}
+/* Professional Experience Starts Here */
+
+/* Achievement-Contact Starts Here */
+.achievement-contact{
+    padding: 1% 7%;
+    background-color: #008256;
+    color: #fbf0fa;
+}
+.contact{
+    text-align: center;
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button {
+    border-radius: 15px;
+    background-color: #00000075;
+    color: #ededed;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 90px;
+    font-size: 1rem;
+    border: 2px solid #cde;
+}
+.contact-links{
+    text-align: center;
+}
+.media-buttons .btn {
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 23px;
+    padding: 8px;
+    margin: 5px;
+    width: 45px;
+    background-color: #fbf0fa;
+}
+.btn:hover{
+    background-color: #9a9797cf;
+}
+.achievement-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.achievement-contact h2{
+    text-align: center;
+}
+/* Achievement-Contact Starts Here */
+
+/* Footer Starts From Here */
+.footer {
+    background-color: #000;
+    color: #26d2c5;
+    padding: 0px;
+    text-align: center;
+    font-size: 1rem;
+}
+.footer-menu{
+    color: #fbf0fa;
+}
+.footer a{
+    display: block;
+    margin: 15px 0px;
+    font-size: 1rem;
+}
+.footer a:hover{
+    color: gray;
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+/* Footer Ends From Here */

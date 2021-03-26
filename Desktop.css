@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive For Desktop */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Nabver Desing Starts From Here */
+.navbar {
+    background-color: cadetblue;
+    padding: 1% 1%;
+    text-align: center;
+}
+.nav-logo {
+    text-align: left;
+}
+.col-2 {
+    width: 15.66%;
+    float: left;
+    padding: 10px;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 10px;
+}
+.nav-heading h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin: 5px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: context-menu;
+}
+.nav-menu {
+    flex-direction: row;
+    justify-content: flex-end;
+    background-blend-mode: inherit;
+    margin-left: 0px;
+}
+.nav-menu a{
+    padding: 10px 0px;
+    margin: 20px 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+}
+[class*="col-6"] {
+    float: left;
+    padding: 35px 95px;
+    width: 45%;
+}
+.nav-menu a {
+    padding: 10px 7px;
+    margin: 20px 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+/* Nabver Desing Ends From Here */
+
+/* Profile Starts From Here */
+.profile .moon-icon {
+    right: 100px;
+    transition: width 2s, transform 2s;
+    height: 125px;
+    width: 125px;
+    -webkit-transition: width 2s, transform 2s;
+    -moz-transition: width 2s, transform 2s;
+    -ms-transition: width 2s, transform 2s;
+    -o-transition: width 2s, transform 2s;
+}
+
+.profile .moon-icon:hover{
+    width: 125px;
+}
+
+.profile-desc p{
+    font-size: 1.2rem;
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* Profile Ends From Here */
+
+/* About Me Desing Starts From Here */
+.aboutme-images {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.aboutme-images img{
+    height: 270px;
+    width: 250px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+/* About Me Desing Ends From Here */
+
+/* Professional Experience Starts Here */
+.professional-experience {
+    padding: 1% 3%;
+}
+/* Professional Experience Starts Here */
+
+/* Achievement-Contact Starts Here */
+.achievement{
+    padding-right: 50px;
+}
+.contact{
+    padding-right: 50px;
+}
+.contact button {
+    width: 120px;
+}
+.contact-links{
+    position: relative;
+}
+.media-buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 175px;
+    width: 55%;
+    font-size: 4rem;
+}
+/* Achievement-Contact Starts Here */
+
+/* Footer Starts From Here */
+
+.footer-menu a {
+    display: inline;
+    margin: 10px;
+    color: #26d2c5;
+}
+.footer-desc{
+    color: #26d2c5;
+}
+/* Footer Ends From Here */
